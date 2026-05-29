@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1780070572003,
+      "tag": "0000_living_felicia_hardy",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1780070870520,
+      "tag": "0001_fat_talon",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1780075179566,
+      "tag": "0002_past_madrox",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1780077097817,
+      "tag": "0003_overjoyed_nightcrawler",
+      "breakpoints": true
+    }
+  ]
+}
