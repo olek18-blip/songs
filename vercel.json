@@ -1,0 +1,26 @@
+{
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
+  "installCommand": "pnpm install",
+  "framework": "other",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "functions": {
+    "server/_core/index.ts": {
+      "runtime": "nodejs20.x",
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
